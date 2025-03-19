@@ -66,6 +66,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'azure-app-service-hai'
+          app-name: 'azure-app-service-haythar'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ED32AC061B854ECF9F05AB86727E6368 }}
