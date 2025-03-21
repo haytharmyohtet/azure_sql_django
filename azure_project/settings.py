@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'azure-sql-db',
+        'NAME': 'sql-db',
         'USER': 'admin-haythar',
         'PASSWORD': 'Htmh98244$',
-        'HOST': 'haythar-server.database.windows.net',
+        'HOST': 'storagesqlserver.database.windows.net',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 18 for SQL Server',
